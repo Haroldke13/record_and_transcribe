@@ -1,0 +1,31 @@
+# Local Python environment. It is machine-specific (built against one exact
+# Python minor version) and must be rebuilt after cloning; see the README.
+.transcription_venv/
+
+# faster-whisper model weights, downloaded automatically on first run (~900 MB).
+.speech_models/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Captured audio and everything derived from it. These are personal recordings,
+# so they stay on the machine that made them.
+*.wav
+*.flac
+*.mp3
+*.m4a
+*.ogg
+*.opus
+CLEANED_AUDIO_RECORDINGS/
+TRANSCRIPTS/
+
+# Chunks still open for writing during a recording session.
+.raw_*
+
+# Editor and OS noise
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
