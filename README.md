@@ -138,5 +138,12 @@ Not verified here:
   spanning a boundary is likely split across two transcripts. TODO: verify
   whether that matters for the intended use.
 
-No LICENSE file. The repository is unlicensed, which by default means no
-permission is granted to others to use it.
+## Licence
+
+**Proprietary software — all rights reserved.** Copyright © 2026 Joel Harold Onyango.
+
+This repository is not open source. The full terms are in [LICENSE](LICENSE); in
+summary, you may not copy, redistribute, modify, sublicense, publish, re-host or
+commercially exploit this software, in whole or in part, without the prior
+written permission of the copyright holder. Access to this repository does not
+grant any licence beyond reading it.
